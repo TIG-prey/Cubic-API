@@ -1,0 +1,33 @@
+
+spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://111.230.49.155:3306/my_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+#    username: JS
+#    password: JS285699
+  redis:
+    port: 6379
+    host: 111.230.49.155
+    password: JS285699
+    database: 0
+server:
+  address: 0.0.0.0
+  servlet:
+    # cookie 30 天过期
+    session:
+      cookie:
+        max-age: 2592000
+    context-path: /api
+mybatis-plus:
+  configuration:
+    # 生产环境关闭日志
+    log-impl: ''
+#dubbo:
+#  application:
+#    name: dubbo-springboot-demo-provider
+#  protocol:
+#    name: dubbo
+#    port: -1
+#  registry:
+#    id: nacos-registry
+#    address: nacos://10.1.24.5:8848
