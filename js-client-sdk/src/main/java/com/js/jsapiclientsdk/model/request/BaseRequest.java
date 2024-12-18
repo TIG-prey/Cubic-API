@@ -1,10 +1,10 @@
-package com.js.jsapiclientsdk.request;
+package com.js.jsapiclientsdk.model.request;
 
 import cn.hutool.json.JSONUtil;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.js.jsapiclientsdk.response.ResultResponse;
+import com.js.jsapiclientsdk.model.response.ResultResponse;
 
 import java.util.HashMap;
 import java.util.Map;
