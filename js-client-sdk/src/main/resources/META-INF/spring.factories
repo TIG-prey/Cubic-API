@@ -1,2 +1,2 @@
 # spring boot starter
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.js.jsapiclientsdk.JsApiClientConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.js.jsapiclientsdk.config.JsApiClientConfig
