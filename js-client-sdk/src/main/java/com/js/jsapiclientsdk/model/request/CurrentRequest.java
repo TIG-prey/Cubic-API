@@ -1,6 +1,6 @@
-package com.js.jsapiclientsdk.request;
+package com.js.jsapiclientsdk.model.request;
 
-import com.js.jsapiclientsdk.response.ResultResponse;
+import com.js.jsapiclientsdk.model.response.ResultResponse;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
