@@ -1,4 +1,4 @@
-package com.js.jsapiclientsdk.response;
+package com.js.jsapiclientsdk.model.response;
 
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
@@ -18,7 +18,9 @@ import java.util.Map;
 @Setter
 @NoArgsConstructor
 public class ResultResponse implements Serializable {
+
     private static final long serialVersionUID = 4844062154623399125L;
+
     private Map<String, Object> data = new HashMap<>();
 
     @JsonAnyGetter
